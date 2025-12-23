@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav__logo {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 30% 20%, #7bd1ff, #1e3b76);
+  color: #0b1021;
+  border-radius: 12px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.nav__kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #7cd2ff;
+}
+
+.nav__title {
+  margin: 0;
+  font-size: 1.7rem;
+  color: #eef4ff;
+  letter-spacing: -0.02em;
+}
